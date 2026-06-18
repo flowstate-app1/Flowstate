@@ -1,5 +1,5 @@
-const CACHE = 'flowstate-v3';
-const ASSETS = ['/', '/index.html', '/style.css', '/app.js'];
+const CACHE = 'flowstate-v4';
+const ASSETS = ['/flowstate/', '/flowstate/index.html', '/flowstate/style.css', '/flowstate/app.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));

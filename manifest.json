@@ -2,7 +2,7 @@
   "name": "Flowstate",
   "short_name": "Flowstate",
   "description": "Level up your learning",
-  "start_url": "/",
+  "start_url": "/flowstate/",
   "display": "standalone",
   "background_color": "#0369A1",
   "theme_color": "#0369A1",
